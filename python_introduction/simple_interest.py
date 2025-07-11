@@ -3,6 +3,6 @@ principal = 1000
 rate = 0.05
 time = 3
 #Calculating simple interest.
-I = principal * rate * time
+Interest = principal * rate * time
 #Print the result.
 print("The simple interest is:", I)
