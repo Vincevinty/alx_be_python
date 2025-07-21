@@ -1,7 +1,7 @@
 #A script to prompt the user to enter two numbers and select an operation (+, -, *, /)
 # Prompt user to enter two numbers
 num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter second number; "))
+num2 = int(input("Enter the second number; "))
 
 # Prompt user to select an operation
 operation = input("Choose the operation (+, -, *, /): ")
