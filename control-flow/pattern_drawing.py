@@ -1,6 +1,6 @@
 # This script is part of a pattern drawing module.
 # Prompt user to enter positive integer that represents the size of the pattern.
-size = int(input("Enter size of the pattern: "))
+size = int(input("Enter the size of the pattern: "))
 
 # Initialize row counter
 current_row = 0
