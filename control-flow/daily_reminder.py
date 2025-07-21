@@ -14,25 +14,25 @@ action_required = ""
 
 match priority:
     case 'high':
-        reminder_message = f"Reminder: '{task_description}' is a HIGH priority task."
+        reminder_message = (f"Reminder: '{task}' is a HIGH priority task.")
         if is_time_bound:
             action_required = "That requires immediate attention today!"
         else:
             action_required = "It's important, but not strictly time-sensitive."
     case 'medium':
-        reminder_message = f"Reminder: '{task_description}' is a MEDIUM priority task."
+        reminder_message = (f"Reminder: '{task}' is a MEDIUM priority task.")
         if is_time_bound:
             action_required = "Try to get it done today."
         else:
             action_required = "It can be done soon."
     case 'low':
-        reminder_message = f"Reminder: '{task_description}' is a LOW priority task."
+        reminder_message = (f"Reminder: '{task}' is a LOW priority task.")
         if is_time_bound:
             action_required = "It would be good to get this done today if possible."
         else:
             action_required = "It can wait if other tasks are more pressing."
     case _:
-        reminder_message = f"Reminder: '{task_description}' has an unrecognized priority. Please set it appropriately."
+        reminder_message = (f"Reminder: '{task}' has an unrecognized priority. Please set it appropriately.")
         action_required = "Review this task's priority."
 
 # 3. Provide a Customized Reminder:
