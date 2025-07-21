@@ -3,7 +3,7 @@
 # 1. Prompt for a Single Task:
 task = input("Enter a task description: ")
 priority = input("Enter the task's priority (high, medium, low): ").lower()
-time_bound = input("Is the task time-bound (yes/no)? ").lower()
+time_bound = input("Is the task time-bound (yes/no)?: ").lower()
 
 is_time_bound = False
 if time_bound == 'yes':
