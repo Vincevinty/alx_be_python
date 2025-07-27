@@ -30,7 +30,7 @@ def perform_operation(num1: float, num2: float, operation: str):
 if __name__ == "__main__":
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
-    operation = input("Choose operation ('add', 'subtract', 'multiply', 'divide'): ")
+    operation = input("Choose operation: ") 
 
     result = perform_operation(num1, num2, operation)
     print(f"Result: {result}")
