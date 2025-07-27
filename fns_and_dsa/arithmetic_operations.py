@@ -1,5 +1,5 @@
 # A function that performs a basic arithmetic operations.
-def perform_operations(num1: float, num2: float, operation: str):
+def perform_operation(num1: float, num2: float, operation: str):
     """the function should execute arithmetic operations
     
     agrs:
