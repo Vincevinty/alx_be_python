@@ -8,8 +8,7 @@ class Calculator:
 
     @classmethod
     def multiply(cls, a, b):
-        """Class method: has access to class via 'cls'."""
-        print(f"Calculation Type: {cls.calculation_type}")
+        print(f"Calculation type: {cls.calculation_type}")  # lowercase 'type'
         return a * b
 
 # Demonstration
